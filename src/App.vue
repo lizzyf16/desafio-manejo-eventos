@@ -48,7 +48,7 @@
 </template>
 
 <script>
-import PacientesListado from './pacientesListado.vue';
+import PacientesListado from './components/pacientesListado.vue';
 
 export default {
   name: 'App',
@@ -92,11 +92,11 @@ export default {
     },
     colorGravedad: function(gravedad){
     if (gravedad === 'Baja'){
-      return 'background-color: green;'
+      return 'background-color: #95dc82;'
     }else if (gravedad === 'Media'){
-      return 'background-color: yellow;'
+      return 'background-color: #e7e579;'
     }else if (gravedad === 'Alta'){
-      return 'background-color: red;'
+      return 'background-color: #92524b;'
     }
     }
   },
